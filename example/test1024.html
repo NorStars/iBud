@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iBud-A world of common growth</title>
+    <link rel="icon" type="img/x-icon" href="img/burgeon.ico"/>
+</head>
+<body bgcolor="#fffff0">
+<h1><i>IBUD</i></h1>
+<time style="position:relative; width:100px; height:20px; ">2018/10/25</time>
+<nav>
+    <a href="index.html">主页</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="img/king.jpg">King</a>
+</nav>
+<h6>这是最后一个标题</h6>
+<!--<a href="http://www.ibud.top">这是链接</a>-->
+<a href="http://47.100.33.134/index.html">这是链接</a>
+<a href="img/king.jpg" download="king">下载图片</a>
+<p>这是段落</p>
+<sub>下标</sub>
+<br/>
+<p>这是内联框架</p>
+<iframe src="https://www.baidu.com"  frameborder="0"></iframe>
+<br/>
+<img src="img/king.jpg"  width="160" height="100">
+<br/>
+<canvas id="myCanvas0" width="100" height="100">
+    Your browser does not support the canvas element.
+</canvas>
+
+<script type="text/javascript">
+    var c=document.getElementById("myCanvas0");
+    var cxt=c.getContext("2d");
+    var img=new Image()
+    img.src="img/illya.png"
+    img.onload = function () {
+        cxt.drawImage(img,0,0,100,100);
+    }
+</script>
+<br/>
+<canvas id="myCanvas" width="160" height="100">
+    Your browser does not support the canvas element.
+</canvas>
+<script src="js/main.js" type="text/javascript">
+</script>
+
+<br/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+    <polygon points="100,10 40,180 190,60 10,60 160,180"
+             style="fill:lime;stroke:purple;stroke-width: 5px ;fill-rule:evenodd;" />
+</svg>
+<br/>
+<object width="420" height="360"
+        classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+        codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+    <param name="src" value="movie.mp4" />
+    <param name="controller" value="true" />
+</object>
+
+</body>
+</html>
