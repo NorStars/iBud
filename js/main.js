@@ -29,15 +29,16 @@ function init(){
     sun = new Image();
     earth = new Image();
     moon = new Image();
-    sun.src = "./img/illya.png";
-    earth.src = "./img/illya.png";
-    moon.src = "./img/illya.png";
+    sun.src = "./img/huaji.png";
+    earth.src = "./img/huaji.png";
+    moon.src = "./img/huaji.png";
 
     let canvas = document.querySelector("#myCanvas");
     ctx = canvas.getContext("2d");
 
     sun.onload = function (){
         draw()
+
     }
 
 }
@@ -75,4 +76,5 @@ function draw(){
     ctx.restore();
 
     requestAnimationFrame(draw);
+
 }
