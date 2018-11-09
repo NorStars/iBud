@@ -1,26 +1,3 @@
-// var c=document.getElementById("myCanvas");
-// var cxt=c.getContext("2d");
-// var grd=cxt.createLinearGradient(0,0,175,50);
-// grd.addColorStop(0,"#FF0000");
-// grd.addColorStop(1,"#00FF00");
-// cxt.fillStyle=grd;
-// cxt.fillRect(0,0,175,50);
-
-// function drawIll() {
-//     let img=new Image();
-//     img.src="./img/illya.png";
-//     // let c=document.getElementById("myCanvas");
-//     let c=document.querySelector("#myCanvas");
-//     let ctx=c.getContext("2d");
-//     img.onload=function(){
-//         ctx.drawImgae(img,0,0,100,100);
-//     }
-//
-// }
-// drawIll();
-
-
-
 let sun;
 let earth;
 let moon;

@@ -1,1 +1,11 @@
-<!---->
+body{
+    background-color: #fffff0;
+}
+time{
+    float: right;
+}
+nav {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
